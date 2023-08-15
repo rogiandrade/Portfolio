@@ -1,0 +1,32 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.homeBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 550px;
+}
+
+.homeTitle{
+    font-size: 80px;
+    color: #7E5DCA;
+}
+
+.homeSubTitle{
+    font-size: 21px;
+    font-weight: 100;
+    color: #313132;
+}
+
+.imgHome{
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid #7E5DCA;
+}
