@@ -1,0 +1,13 @@
+{
+    "header": {
+        "HOME": "PAGE D'ACCUEIL",
+        "ABOUT ME": "À PROPOS DE MOI",
+        "SERVICES": "SERVICE",
+        "PROJECTS": "PROJETS",
+        "CONTACTS": "CONTRATS"
+    },
+    "home": {
+        "title": "Salut, <br/> Je m'appelle <br/> Igor Andrade!",
+        "subtitle": "Je suis un développeur fullstack vivant au Portugal."
+    }
+}

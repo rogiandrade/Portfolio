@@ -12,5 +12,5 @@ html, body{
     flex-flow: column;
     width: 100vw;
     height: 100vh;
-    background-color: #EFF1F0;
+    background-color: var(--backgroundColor);
 }

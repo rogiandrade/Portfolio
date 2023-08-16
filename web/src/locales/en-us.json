@@ -1,0 +1,13 @@
+{
+    "header": {
+        "HOME": "HOME",
+        "ABOUT ME": "ABOUT ME",
+        "SERVICES": "SERVICES",
+        "PROJECTS": "PROJECTS",
+        "CONTACTS": "CONTACTS"
+    },
+    "home": {
+        "title": "Hi, <br/> My name's <br/> Igor Andrade!",
+        "subtitle": "I am a fullstack react developer living in Portugal."
+    }
+}

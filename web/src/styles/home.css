@@ -22,7 +22,7 @@
 .homeSubTitle{
     font-size: 21px;
     font-weight: 100;
-    color: #313132;
+    color: var(--subTitleColor);
 }
 
 .imgHome{

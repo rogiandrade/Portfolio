@@ -1,52 +1,64 @@
-import { ChevronDownIcon, ChevronUpIcon } from "@radix-ui/react-icons";
+import { ChevronDownIcon } from "@radix-ui/react-icons";
 import * as Menubar from "@radix-ui/react-menubar";
 import * as Select from "@radix-ui/react-select";
 import { SelectItem } from "@radix-ui/react-select";
 import * as Switch from "@radix-ui/react-switch";
-import React from "react";
+import { useDarkMode, DarkModeContextType } from "../contexts/colorsProvider";
+import { changeLocale } from "../contexts/changeLocaleProvider";
+import { useHeader } from "../contexts/headerProvider";
 
-const countries = { brazil: 'PT-BR', usa: 'EN', france: 'FR', spain: 'ES' }; 
+const countries = { 'pt-br': 'PT-BR', 'en-us': 'EN', 'fr-eu': 'FR', 'es-eu': 'ES' } as { [value: string]: string };
 
 export function Header() {
 
-    const [value, setValue] = React.useState('brazil');
+    const { locale, setLocale } = useHeader();
 
-    const switchDemo = () => (
+    const switchDemo = () => {
 
-        <form>
+        const context = useDarkMode();
 
-            <div style={{ display: 'flex', alignItems: 'center' }}>
+        if (!context) {
+            return null;
+        }
 
-                <label className="Label">
-                    <img className="sun" src="sun.svg" alt="sun" />
-                </label>
+        const { toggleDarkMode }: DarkModeContextType = context;
 
-                <Switch.Root className="SwitchRoot" id="airplane-mode">
-                    <Switch.Thumb className="SwitchThumb" />
-                </Switch.Root>
+        return (
+            <form>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                    <label className="label">
+                        <img className="sun" src="sun.svg" alt="sun" />
+                    </label>
 
-                <label className="Label">
-                    <img className="moon" src="moon.svg" alt="moon" />
-                </label>
+                    <Switch.Root
+                        className="switchRoot"
+                        id="airplane-mode"
+                        onClick={toggleDarkMode}
+                    >
+                        <Switch.Thumb className="switchThumb" />
+                    </Switch.Root>
 
-            </div>
-
-        </form>
-    );
+                    <label className="label">
+                        <img className="moon" src="moon.svg" alt="moon" />
+                    </label>
+                </div>
+            </form>
+        );
+    };
 
     const selectItem = () => (
 
         <Select.Root
-            value={value}
-            onValueChange={setValue}
+            value={locale}
+            onValueChange={setLocale}
         >
             <Select.Trigger className="selectTrigger">
 
                 <Select.Value
-                    aria-label={value}
+                    aria-label={locale}
                     placeholder="Select a language..."
                 >
-                    {countries[value]}
+                    {countries[locale]}
                 </Select.Value>
 
                 <Select.Icon className="selectIcon">
@@ -62,28 +74,25 @@ export function Header() {
                     position="popper"
                     sideOffset={5}
                 >
-                    <Select.ScrollUpButton className="SelectScrollButton">
-                        <ChevronUpIcon />
-                    </Select.ScrollUpButton>
 
                     <Select.Viewport className="selectViewport">
                         <Select.Group>
-                            <SelectItem value="brazil" >
+                            <SelectItem value="pt-br">
                                 <img className="flags" src="brazilflag.svg" alt="bandeira do Brasil" />
                                 PT-BR
                             </SelectItem>
-                            <Select.Separator className="SelectSeparator" />
-                            <SelectItem value="usa">
+                            <Select.Separator className="selectSeparator" />
+                            <SelectItem value="en-us">
                                 <img className="flags" src="usaflag.svg" alt="flag of USA" />
                                 EN
                             </SelectItem>
-                            <Select.Separator className="SelectSeparator" />
-                            <SelectItem value="france">
+                            <Select.Separator className="selectSeparator" />
+                            <SelectItem value="fr-eu">
                                 <img className="flags" src="franceflag.svg" alt="drapeau Français" />
                                 FR
                             </SelectItem>
-                            <Select.Separator className="SelectSeparator" />
-                            <SelectItem value="spain">
+                            <Select.Separator className="selectSeparator" />
+                            <SelectItem value="es-eu">
                                 <img className="flags" src="spanishflag.svg" alt="bandera Española" />
                                 ES
                             </SelectItem>
@@ -106,11 +115,21 @@ export function Header() {
                 <Menubar.Root className="menubarRoot">
 
                     <Menubar.Menu>
-                        <Menubar.Trigger className="menubarTrigger"> HOME </Menubar.Trigger>
-                        <Menubar.Trigger className="menubarTrigger"> SOBRE MIM </Menubar.Trigger>
-                        <Menubar.Trigger className="menubarTrigger"> SERVIÇOS </Menubar.Trigger>
-                        <Menubar.Trigger className="menubarTrigger"> PROJETOS </Menubar.Trigger>
-                        <Menubar.Trigger className="menubarTrigger"> CONTATOS </Menubar.Trigger>
+                        <Menubar.Trigger className="menubarTrigger">
+                            {changeLocale('header', 'HOME')}
+                        </Menubar.Trigger>
+                        <Menubar.Trigger className="menubarTrigger">
+                            {changeLocale('header', 'ABOUT ME')}
+                        </Menubar.Trigger>
+                        <Menubar.Trigger className="menubarTrigger">
+                            {changeLocale('header', 'SERVICES')}
+                        </Menubar.Trigger>
+                        <Menubar.Trigger className="menubarTrigger">
+                            {changeLocale('header', 'PROJECTS')}
+                        </Menubar.Trigger>
+                        <Menubar.Trigger className="menubarTrigger">
+                            {changeLocale('header', 'CONTACTS')}
+                        </Menubar.Trigger>
                     </Menubar.Menu>
 
                 </Menubar.Root>
