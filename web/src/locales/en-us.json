@@ -1,6 +1,5 @@
 {
     "header": {
-        "HOME": "HOME",
         "ABOUT ME": "ABOUT ME",
         "SERVICES": "SERVICES",
         "PROJECTS": "PROJECTS",
@@ -9,5 +8,9 @@
     "home": {
         "title": "Hi, <br/> My name's <br/> Igor Andrade!",
         "subtitle": "I am a fullstack react developer living in Portugal."
-    }
+    },
+    "about": {
+        "title": "About Me",
+        "text": ["Hello, I'm Igor de Carvalho Andrade, a Brazilian technology lover, born in Nova Iguaçu-RJ in 2001. Currently, at the age of 21, I live in Portugal, where I work as a Fullstack developer, focusing my passion and expertise on creating solutions environments using React technology.", "My programming journey started as a quest to turn ideas into digital reality. Over time, I immersed myself in the world of development, honing my skills on both the front end and back end. React has become my main ally, allowing me to create web applications that not only work efficiently but also provide user-friendly and interactive experiences.", "In addition to my love of coding, I am passionate about music and animals. Music for me is a universal form of expression that transcends barriers and connects people. My playlist is as diverse as my interests in programming. I am also an animal lover, marveling at the variety of species and the beauty of nature.", "I'm always looking for challenges that push me to grow as a developer and as an individual. If you are looking for a dedicated professional, who brings with him a passion for both the code and the aspects that enrich life, I am ready to collaborate on innovative projects. Let's connect and explore how we can create something amazing together!"]
+    } 
 }

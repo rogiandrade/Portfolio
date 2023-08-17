@@ -3,30 +3,30 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 94vh;
 }
 
 .homeBox{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 70%;
-    height: 550px;
+    width: 75%;
+    height: 100%;
 }
 
 .homeTitle{
-    font-size: 80px;
+    font-size: 100px;
     color: #7E5DCA;
 }
 
 .homeSubTitle{
-    font-size: 21px;
+    font-size: 27px;
     font-weight: 100;
     color: var(--subTitleColor);
 }
 
 .imgHome{
-    width: 400px;
+    width: 450px;
     border-radius: 50%;
     border: 5px solid #7E5DCA;
 }

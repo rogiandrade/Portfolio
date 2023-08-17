@@ -6,10 +6,13 @@ import * as Switch from "@radix-ui/react-switch";
 import { useDarkMode, DarkModeContextType } from "../contexts/colorsProvider";
 import { changeLocale } from "../contexts/changeLocaleProvider";
 import { useHeader } from "../contexts/headerProvider";
+import { Link, Outlet } from "react-router-dom";
 
 const countries = { 'pt-br': 'PT-BR', 'en-us': 'EN', 'fr-eu': 'FR', 'es-eu': 'ES' } as { [value: string]: string };
 
-export function Header() {
+interface headerProps { }
+
+export function Header({ }: headerProps) {
 
     const { locale, setLocale } = useHeader();
 
@@ -55,7 +58,7 @@ export function Header() {
             <Select.Trigger className="selectTrigger">
 
                 <Select.Value
-                    aria-label={locale}
+                    aria-label="PT-BR"
                     placeholder="Select a language..."
                 >
                     {countries[locale]}
@@ -107,40 +110,40 @@ export function Header() {
     );
 
     return (
+        <>
+            <header>
 
-        <header>
+                <div className="navbar">
 
-            <div className="navbar">
+                    <Menubar.Root className="menubarRoot">
 
-                <Menubar.Root className="menubarRoot">
+                        <Menubar.Menu>
+                            <Menubar.Trigger className="menubarTrigger">
+                                <Link to="/about">
+                                    {changeLocale('header', 'ABOUT ME')}
+                                </Link>
+                            </Menubar.Trigger>
+                            <Menubar.Trigger className="menubarTrigger">
+                                {changeLocale('header', 'SERVICES')}
+                            </Menubar.Trigger>
+                            <Menubar.Trigger className="menubarTrigger">
+                                {changeLocale('header', 'PROJECTS')}
+                            </Menubar.Trigger>
+                            <Menubar.Trigger className="menubarTrigger">
+                                {changeLocale('header', 'CONTACTS')}
+                            </Menubar.Trigger>
+                        </Menubar.Menu>
 
-                    <Menubar.Menu>
-                        <Menubar.Trigger className="menubarTrigger">
-                            {changeLocale('header', 'HOME')}
-                        </Menubar.Trigger>
-                        <Menubar.Trigger className="menubarTrigger">
-                            {changeLocale('header', 'ABOUT ME')}
-                        </Menubar.Trigger>
-                        <Menubar.Trigger className="menubarTrigger">
-                            {changeLocale('header', 'SERVICES')}
-                        </Menubar.Trigger>
-                        <Menubar.Trigger className="menubarTrigger">
-                            {changeLocale('header', 'PROJECTS')}
-                        </Menubar.Trigger>
-                        <Menubar.Trigger className="menubarTrigger">
-                            {changeLocale('header', 'CONTACTS')}
-                        </Menubar.Trigger>
-                    </Menubar.Menu>
+                    </Menubar.Root>
 
-                </Menubar.Root>
+                </div>
 
-            </div>
+                <div className="options">
+                    {switchDemo()}
+                    {selectItem()}
+                </div>
 
-            <div className="options">
-                {switchDemo()}
-                {selectItem()}
-            </div>
-
-        </header>
+            </header>
+            <Outlet /></>
     )
 }

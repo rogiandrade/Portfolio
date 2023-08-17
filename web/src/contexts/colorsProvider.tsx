@@ -40,6 +40,7 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
         buttonHeaderTextColor: '#000000',
         borderBottomColor: '#C9C9C9',
         subTitleColor: '#313132',
+        imageAbout: 'url(../../public/about-pic-white.png)'
     };
 
     const darkModeColors: Colors = {
@@ -48,6 +49,7 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
         buttonHeaderTextColor: '#7E5DCA',
         borderBottomColor: '#424242',
         subTitleColor: '#FFFFFC',
+        imageAbout: 'url(../../public/about-pic-dark.png)'
     };
 
     const colors: Colors = darkMode ? darkModeColors : lightModeColors;
@@ -63,6 +65,7 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
                 root.style.setProperty(`--${key}`, colors[key]);
             }
         }
+        root.style.setProperty('--image-about', colors.imageAbout);
     }, [darkMode, colors]);
 
     return (

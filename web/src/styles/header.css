@@ -3,12 +3,12 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 100px;
+    height: 60px;
     border-bottom: 1px solid var(--borderBottomColor);
 }
 
 .navbar {
-    width: 900px;
+    width: 600px;
 }
 
 .menubarRoot {
@@ -17,9 +17,14 @@ header {
     align-items: center;
 }
 
+a{
+    color: #7E5DCA;
+    text-decoration: none;
+}
+
 .menubarTrigger {
     border: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     color: #7E5DCA;
     cursor: pointer;
@@ -100,8 +105,8 @@ button {
     padding: 0 15px;
     font-size: 15px;
     line-height: 1;
-    width: 120px;
-    height: 50px;
+    width: 110px;
+    height: 40px;
     gap: 5px;
     background-color: var(--buttonHeaderColor);
     color: var(--buttonHeaderTextColor);
@@ -118,13 +123,13 @@ button {
     background-color: var(--buttonHeaderColor);
     border-radius: 6px;
     width: var(--radix-select-trigger-width);
-    height: 175px;
+    height: 145px;
     box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.212);
 }
 
 .selectViewport {
     border: 0;
-    font-size: 25px;
+    font-size: 20px;
     color: var(--buttonHeaderTextColor);
     padding: 5px;
     cursor: pointer;
@@ -132,7 +137,7 @@ button {
 
 .flags{
     padding: 0 15px;
-    width: 56px;
+    width: 50px;
 }
 
 .selectSeparator {

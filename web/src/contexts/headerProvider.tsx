@@ -13,7 +13,7 @@ type headerProviderProps = {
 };
 
 export function HeaderProvider({ children }: headerProviderProps) {
-    const [locale, setLocale] = useState('');
+    const [locale, setLocale] = useState('pt-br');
     return (
         <HeaderContext.Provider
             value={{

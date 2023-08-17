@@ -1,6 +1,5 @@
 {
     "header": {
-        "HOME": "INÍCIO",
         "ABOUT ME": "SOBRE MIM",
         "SERVICES": "SERVIÇOS",
         "PROJECTS": "PROJETOS",
@@ -9,5 +8,9 @@
     "home": {
         "title": "Olá, <br/> Meu nome é <br/> Igor Andrade!",
         "subtitle": "Sou um desenvolvedor fullstack que vive em Portugal."
-    }
+    },
+    "about": {
+        "title": "Sobre mim",
+        "text": ["Olá, sou Igor de Carvalho Andrade, um brasileiro amante da tecnologia, nascido em Nova Iguaçu-RJ no ano de 2001. Atualmente, aos 21 anos, resido em Portugal, onde atuo como desenvolvedor Fullstack, concentrando minha paixão e expertise na criação de soluções envolventes utilizando a tecnologia React.", "Minha jornada na programação começou como uma busca por transformar ideias em realidade digital. Ao longo do tempo, mergulhei de cabeça no mundo do desenvolvimento, aprimorando minhas habilidades tanto no front-end quanto no back-end. O React se tornou meu principal aliado, permitindo-me criar aplicações web que não apenas funcionam de maneira eficiente, mas também proporcionam experiências interativas e amigáveis aos usuários.", "Além do meu amor pela codificação, sou apaixonado por música e animais. A música é para mim uma forma de expressão universal que transcende barreiras e conecta pessoas. Minha playlist é tão diversificada quanto meus interesses na programação. Também sou um amante dos animais, maravilhado com a variedade de espécies e a beleza da natureza.", "Estou sempre em busca de desafios que me impulsionem a crescer como desenvolvedor e como indivíduo. Se você está procurando um profissional dedicado, que traz consigo a paixão tanto pelo código quanto pelos aspectos que enriquecem a vida, estou pronto para colaborar em projetos inovadores. Vamos nos conectar e explorar como podemos criar algo incrível juntos!"]   
+    } 
 }
