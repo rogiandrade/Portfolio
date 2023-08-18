@@ -12,7 +12,7 @@ export function Home() {
                             dangerouslySetInnerHTML={{ __html: changeLocale('home', 'title') }} />
                         <p className="homeSubTitle">{changeLocale('home', 'subtitle')}</p>
                     </div>
-                    <img className="imgHome" src="profile-pic.png" alt="foto de Igor Andrade" />
+                    <img className="imgHome" src="profile-pic.png" alt="logo" />
                 </div>
             </section>
         </>

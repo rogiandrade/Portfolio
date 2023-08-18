@@ -1,12 +1,12 @@
 import { ChevronDownIcon } from "@radix-ui/react-icons";
-import * as Menubar from "@radix-ui/react-menubar";
 import * as Select from "@radix-ui/react-select";
 import { SelectItem } from "@radix-ui/react-select";
 import * as Switch from "@radix-ui/react-switch";
 import { useDarkMode, DarkModeContextType } from "../contexts/colorsProvider";
-import { changeLocale } from "../contexts/changeLocaleProvider";
 import { useHeader } from "../contexts/headerProvider";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import { MenuBar } from "./nav/menubar";
+import { SideBar } from "./nav/sidebar";
 
 const countries = { 'pt-br': 'PT-BR', 'en-us': 'EN', 'fr-eu': 'FR', 'es-eu': 'ES' } as { [value: string]: string };
 
@@ -112,38 +112,15 @@ export function Header({ }: headerProps) {
     return (
         <>
             <header>
-
-                <div className="navbar">
-
-                    <Menubar.Root className="menubarRoot">
-
-                        <Menubar.Menu>
-                            <Menubar.Trigger className="menubarTrigger">
-                                <Link to="/about">
-                                    {changeLocale('header', 'ABOUT ME')}
-                                </Link>
-                            </Menubar.Trigger>
-                            <Menubar.Trigger className="menubarTrigger">
-                                {changeLocale('header', 'SERVICES')}
-                            </Menubar.Trigger>
-                            <Menubar.Trigger className="menubarTrigger">
-                                {changeLocale('header', 'PROJECTS')}
-                            </Menubar.Trigger>
-                            <Menubar.Trigger className="menubarTrigger">
-                                {changeLocale('header', 'CONTACTS')}
-                            </Menubar.Trigger>
-                        </Menubar.Menu>
-
-                    </Menubar.Root>
-
-                </div>
-
+                <MenuBar />
+                <SideBar />
                 <div className="options">
                     {switchDemo()}
                     {selectItem()}
                 </div>
-
             </header>
-            <Outlet /></>
+            <Outlet />
+        </>
     )
+
 }

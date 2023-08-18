@@ -8,7 +8,7 @@ header {
 }
 
 .navbar {
-    width: 600px;
+    width: 800px;
 }
 
 .menubarRoot {
@@ -17,7 +17,7 @@ header {
     align-items: center;
 }
 
-a{
+a {
     color: #7E5DCA;
     text-decoration: none;
 }
@@ -31,7 +31,7 @@ a{
     transition: 0.5s;
 }
 
-.menubarTrigger:hover{
+.menubarTrigger:hover {
     filter: brightness(80%);
 }
 
@@ -79,12 +79,6 @@ button {
 
 .switchThumb[data-state='checked'] {
     transform: translateX(19px);
-}
-
-.label {
-    color: white;
-    font-size: 15px;
-    line-height: 1;
 }
 
 .sun {
@@ -135,7 +129,7 @@ button {
     cursor: pointer;
 }
 
-.flags{
+.flags {
     padding: 0 15px;
     width: 50px;
 }
@@ -144,4 +138,120 @@ button {
     height: 1px;
     background-color: var(--borderBottomColor);
     margin: 5px;
+}
+
+@media screen and (max-width: 2560px) {
+    .IconButton {
+        position: absolute;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 50px;
+    }
+
+    .navbar {
+        width: 500px;
+    }
+
+    .menubarTrigger {
+        font-size: 13px;
+    }
+
+    .options {
+        width: 250px;
+    }
+
+    .switchRoot {
+        width: 36px;
+        height: 20px;
+    }
+
+    .switchThumb {
+        width: 17px;
+        height: 17px;
+    }
+
+    .switchThumb[data-state='checked'] {
+        transform: translateX(17px);
+    }
+
+    .sun {
+        padding-right: 5px;
+        margin-top: 5px;
+        width: 25px;
+    }
+
+    .moon {
+        padding-left: 5px;
+        margin-top: 5px;
+        width: 25px;
+    }
+
+    .selectTrigger {
+        font-size: 12px;
+        width: 90px;
+        height: 33px;
+    }
+
+    .selectContent {
+        height: 111px;
+    }
+
+    .selectViewport {
+        font-size: 14px;
+    }
+
+    .flags {
+        padding: 0 12px;
+        width: 37px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .IconButton {
+        position: relative;
+        visibility: visible;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        height: 40px;
+    }
+
+    .options {
+        margin-right: 10px;
+        width: 190px;
+    }
+
+    .selectTrigger {
+        font-size: 11px;
+        width: 55px;
+        height: 25px;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    }
+
+    .selectContent {
+        height: 100px;
+    }
+
+    .selectViewport {
+        font-size: 13px;
+    }
+
+    .flags {
+        padding: 0 6px;
+        width: 23px;
+    }
 }
