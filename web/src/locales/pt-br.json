@@ -13,5 +13,23 @@
     "about": {
         "title": "Sobre mim",
         "text": ["Olá, sou Igor de Carvalho Andrade, um brasileiro amante da tecnologia, nascido em Nova Iguaçu-RJ no ano de 2001. Atualmente, aos 21 anos, resido em Portugal, onde atuo como desenvolvedor Fullstack, concentrando minha paixão e expertise na criação de soluções envolventes utilizando a tecnologia React.", "Minha jornada na programação começou como uma busca por transformar ideias em realidade digital. Ao longo do tempo, mergulhei de cabeça no mundo do desenvolvimento, aprimorando minhas habilidades tanto no front-end quanto no back-end. O React se tornou meu principal aliado, permitindo-me criar aplicações web que não apenas funcionam de maneira eficiente, mas também proporcionam experiências interativas e amigáveis aos usuários.", "Além do meu amor pela codificação, sou apaixonado por música e animais. A música é para mim uma forma de expressão universal que transcende barreiras e conecta pessoas. Minha playlist é tão diversificada quanto meus interesses na programação. Também sou um amante dos animais, maravilhado com a variedade de espécies e a beleza da natureza.", "Estou sempre em busca de desafios que me impulsionem a crescer como desenvolvedor e como indivíduo. Se você está procurando um profissional dedicado, que traz consigo a paixão tanto pelo código quanto pelos aspectos que enriquecem a vida, estou pronto para colaborar em projetos inovadores. Vamos nos conectar e explorar como podemos criar algo incrível juntos!"]   
-    } 
+    },
+    "services": {
+        "title": "Produção de Software:",
+        "subtitle": "Impulsiono o crescimento da sua empresa com soluções incrivelmente personalizadas.",
+        "myservices": "Meus serviços:",
+        "systemdevelopment": "Desenvolvimento de sistemas",
+        "systemdevelopmenttext": "O serviço de desenvolvimento de sistemas cria um software personalizado para atender necessidades específicas. Isso envolve análise, design, codificação, testes e entrega do sistema. O objetivo é automatizar processos, aumentar eficiência e resolver problemas complexos. Pode abranger desde sistemas internos a aplicativos e plataformas, garantindo usabilidade e segurança.",
+        "mobiledevelopment": "Desenvolvimento mobile",
+        "mobiledevelopmenttext": "O serviço de desenvolvimento mobile cria aplicativos para dispositivos móveis, como smartphones e tablets. Envolve design, programação, testes e lançamento do app. Seu objetivo é facilitar tarefas, oferecer entretenimento ou solucionar problemas específicos. Abrange sistemas operacionais como Android e IOS, garantindo a melhor usabilidade e segurança para os usuários.",
+        "integration": "Integrações",
+        "integrationtext": "Integrações de sistemas conectam diferentes softwares para trabalharem juntos de forma harmoniosa. Isso envolve criar conexões, trocar dados e sincronizar ações entre os sistemas. O objetivo é melhorar a eficiência, evitar duplicação de esforços e melhorar a tomada de decisões. Pode incluir integração entre aplicativos internos ou externos, garantindo fluxo de informações suave e coerente para a sua aplicação.",
+        "developmentcicle": "Ciclo de desenvolvimento de uma aplicação:",
+        "blueprint": "Blueprint",
+        "blueprinttext": "Nessa etapa, traçamos o roteiro completo do seu projeto, definindo cada funcionalidade e aspecto do software. Meu foco é entender suas necessidades para garantir que o resultado final atinja todas as metas estabelecidas. Contando com minha expertise técnica, transformamos ideias em planos concretos, assegurando transparência, eficiência e alinhamento com suas expectativas. Nesta fase você construirá uma base sólida para a criação de um software sob medida que impulsionará seus objetivos de negócio.",
+        "development": "Desenvolvimento",
+        "developmenttext": "Maximize o potencial do seu projeto através da fase de desenvolvimento. Eu transformo os planos em realidade, codificando e construindo o software personalizado que atenderá às suas demandas específicas. Com uma abordagem ágil, garanto entregas pontuais de funcionalidades de alta qualidade. Durante essa fase, você estará envolvido para feedback contínuo, assegurando que o produto final seja exatamente o que você deseja.",
+        "support": "Suporte e manuntenção",
+        "supporttext": "Após a implementação bem-sucedida, estarei comprometido em garantir o funcionamento contínuo do seu software. Eu estou apto para resolver qualquer problema e realizar atualizações conforme necessário. Isso significa que você pode se concentrar nos seus negócios, enquanto cuido da saúde e desempenho do software. Com um suporte proativo, você terá tranquilidade sabendo que seu investimento está protegido e evoluindo em paralelo às suas necessidades em constante mudança."
+    }
 }

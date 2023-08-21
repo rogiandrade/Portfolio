@@ -13,5 +13,23 @@
     "about": {
         "title": "About Me",
         "text": ["Hello, I'm Igor de Carvalho Andrade, a Brazilian technology lover, born in Nova Iguaçu-RJ in 2001. Currently, at the age of 21, I live in Portugal, where I work as a Fullstack developer, focusing my passion and expertise on creating solutions environments using React technology.", "My programming journey started as a quest to turn ideas into digital reality. Over time, I immersed myself in the world of development, honing my skills on both the front end and back end. React has become my main ally, allowing me to create web applications that not only work efficiently but also provide user-friendly and interactive experiences.", "In addition to my love of coding, I am passionate about music and animals. Music for me is a universal form of expression that transcends barriers and connects people. My playlist is as diverse as my interests in programming. I am also an animal lover, marveling at the variety of species and the beauty of nature.", "I'm always looking for challenges that push me to grow as a developer and as an individual. If you are looking for a dedicated professional, who brings with him a passion for both the code and the aspects that enrich life, I am ready to collaborate on innovative projects. Let's connect and explore how we can create something amazing together!"]
+    },
+    "services": {
+        "title": "Software Production:",
+        "subtitle": "I boost your company's growth with incredibly customized solutions.",
+        "myservices": "My services:",
+        "systemdevelopment": "Systems development",
+        "systemdevelopmenttext": "The systems development service creates custom software to meet specific needs. This involves analyzing, designing, coding, testing and delivering the system. The goal is to automate processes, increase efficiency and solve complex problems. It can range from internal systems to applications and platforms, ensuring usability and security.",
+        "mobiledevelopment": "Mobile development",
+        "mobiledevelopmenttext": "The mobile development service creates applications for mobile devices such as smartphones and tablets. It involves designing, programming, testing and launching the app. Its purpose is to facilitate tasks, provide entertainment or solve specific problems. It covers operating systems such as Android and IOS, ensuring the best usability and security for users.",
+        "integration": "Integrations",
+        "integrationtext": "System integrations connect different software to work together harmoniously. This involves creating connections, exchanging data, and synchronizing actions between systems. The aim is to improve efficiency, avoid duplication of effort and improve decision-making. It can include integration between internal or external applications, ensuring smooth and consistent information flow to your application.",
+        "developmentcicle": "Application development cycle:",
+        "blueprint": "Blueprint",
+        "blueprinttext": "At this stage, we outline the complete roadmap of your project, defining each functionality and aspect of the software. My focus is to understand your needs to ensure that the end result meets all established goals. Relying on my technical expertise, we transform ideas into concrete plans, ensuring transparency, efficiency and alignment with your expectations. In this phase you will build a solid foundation for creating bespoke software that will drive your business goals.",
+        "development": "Development",
+        "developmenttext": "Maximize your project's potential through the development phase. I turn plans into reality by coding and building custom software that will meet your specific demands. With an agile approach, I ensure on-time delivery of high-quality features. During this phase, you'll be involved for ongoing feedback, ensuring the final product is exactly what you want.",
+        "support": "Support and maintenance",
+        "supporttext": "Upon successful implementation, I will be committed to ensuring your software continues to function. I am able to resolve any issues and make updates as needed. This means you can focus on your business while I take care of the software's health and performance. With proactive support, you'll have peace of mind knowing your investment is protected and evolving in tandem with your ever-changing needs."
     } 
 }

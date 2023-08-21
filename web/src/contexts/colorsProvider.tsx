@@ -36,24 +36,22 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
 
     const lightModeColors: Colors = {
         backgroundColor: '#EFF1F0',
-        bannerTextColor: "#FFFFFC",
-        buttonHeaderColor: '#FFFFFF',
+        buttonHeaderColor: '#FFFFFC',
         buttonHeaderTextColor: '#000000',
         borderBottomColor: '#C9C9C9',
         subTitleColor: '#313132',
         imageAbout: 'url(../../../about-pic-white.png)',
-        bannerService: 'url(../../../bannerLight.png)'
+        imageService: 'url(../../../imageServiceLight.png)'
     };
 
     const darkModeColors: Colors = {
         backgroundColor: '#313131',
-        bannerTextColor: "#7E5DCA",
         buttonHeaderColor: '#151515',
         buttonHeaderTextColor: '#7E5DCA',
         borderBottomColor: '#424242',
         subTitleColor: '#FFFFFC',
         imageAbout: 'url(../../../about-pic-dark.png)',
-        bannerService: 'url(../../../bannerDark.png)'
+        imageService: 'url(../../../imageServiceDark.png)'
     };
 
     const colors: Colors = darkMode ? darkModeColors : lightModeColors;
@@ -70,7 +68,7 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
             }
         }
         root.style.setProperty('--image-about', colors.imageAbout);
-        root.style.setProperty('--bannerService', colors.bannerService);
+        root.style.setProperty('--image-service', colors.imageService);
     }, [darkMode, colors]);
 
     return (

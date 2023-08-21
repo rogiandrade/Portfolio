@@ -45,7 +45,7 @@
     color: var(--subTitleColor);
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1456px) {
     .titles {
         font-size: 57px;
     }
