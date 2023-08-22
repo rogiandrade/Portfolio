@@ -31,5 +31,13 @@
         "developmenttext": "Maximice el potencial de su proyecto a través de la fase de desarrollo. Convierto los planes en realidad mediante la codificación y creación de software personalizado que satisfará sus demandas específicas. Con un enfoque ágil, garantizo la entrega a tiempo de características de alta calidad. Durante esta fase, estará involucrado en la retroalimentación continua, asegurándose de que el producto final sea exactamente lo que desea.",
         "support": "Soporte y mantenimiento",
         "supporttext": "Tras una implementación exitosa, me comprometeré a garantizar que su software continúe funcionando. Puedo resolver cualquier problema y hacer actualizaciones según sea necesario. Esto significa que puede concentrarse en su negocio mientras yo me ocupo de la salud y el rendimiento del software. Con soporte proactivo, tendrá la tranquilidad de saber que su inversión está protegida y evoluciona junto con sus necesidades en constante cambio."
+    },
+    "projects": {
+        "title": "Mis proyectos",
+        "subtitle": "En esta página están mis <b>4</b> proyectos principales que he ido desarrollando durante mi trayectoria como desarrollador.",
+        "vlinsresume": "Proyecto realizado para una reconocida esteticista de Río de Janeiro.",
+        "habitresume": "Proyecto realizado para registrar hábitos diarios.",
+        "pokedevresume": "Proyecto que se desarrolla como un desafío entre amigos.",
+        "blissresume": "Proyecto realizado para el proceso de selección de una empresa."
     } 
 }

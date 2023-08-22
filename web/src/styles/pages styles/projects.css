@@ -1,0 +1,89 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 94vh;
+}
+
+.projectsBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 50%;
+    height: 100%;
+}
+
+.projectsHeader {
+    padding: 15px;
+    width: 100%;
+    border-bottom: 1px solid var(--borderBottomColor);
+}
+
+.projectsTitle {
+    width: 100%;
+    font-size: 55px;
+    color: #7E5DCA;
+    margin-bottom: 5px;
+}
+
+.projectsSubTitle {
+    font-size: 22px;
+    font-weight: 100;
+    color: var(--subTitleColor);
+}
+
+.projectsContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+    width: 76%;
+    height: 80%;
+}
+
+.projectsContentCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 10px;
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    background-color: var(--buttonHeaderColor);
+}
+
+.projectsCardImages {
+    width: 300px;
+    height: 200px;
+    background-image: var(--image-projects);
+    background-size: contain;
+}
+
+.projectsCardsContent {
+    display: flex;
+    flex-flow: wrap;
+    width: 300px;
+    height: 100px;
+}
+
+.projectsCardtitle {
+    padding: 0 10px;
+    width: 100%;
+    font-size: 29px;
+    color: #7E5DCA;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--borderBottomColor)
+}
+
+.projectsCardSubTitle {
+    width: 250px;
+    padding: 0 10px;
+    font-size: 13px;
+    font-weight: 100;
+    color: var(--subTitleColor);
+    margin-top: 10px;
+}
+

@@ -31,5 +31,13 @@
         "developmenttext": "Maximize your project's potential through the development phase. I turn plans into reality by coding and building custom software that will meet your specific demands. With an agile approach, I ensure on-time delivery of high-quality features. During this phase, you'll be involved for ongoing feedback, ensuring the final product is exactly what you want.",
         "support": "Support and maintenance",
         "supporttext": "Upon successful implementation, I will be committed to ensuring your software continues to function. I am able to resolve any issues and make updates as needed. This means you can focus on your business while I take care of the software's health and performance. With proactive support, you'll have peace of mind knowing your investment is protected and evolving in tandem with your ever-changing needs."
+    },
+    "projects": {
+        "title": "My projects",
+        "subtitle": "On this page are my <b>4</b> main projects that I've been developing during my journey as a developer.",
+        "vlinsresume": "Project carried out for a renowned beautician in Rio de Janeiro.",
+        "habitresume": "Project carried out to record daily habits.",
+        "pokedevresume": "Project being developed as a challenge between friends.",
+        "blissresume": "Project carried out for the selection process of a company."
     } 
 }

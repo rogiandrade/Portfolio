@@ -42,7 +42,10 @@
 }
 
 .overflowServices{
-    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    overflow-y: overlay;
 }
 
 .overflowServices::-webkit-scrollbar {
@@ -56,6 +59,7 @@
 }
 
 .overflowServices::-webkit-scrollbar-thumb {
+    opacity: 1;
     background: var(--subTitleColor);
     border-radius: 6px;
 }
@@ -90,7 +94,7 @@
 
 .myServiceCardTitle {
     font-size: 18px;
-    color: var(--subTitleColor);
+    color: #7E5DCA;
 }
 
 .myServiceCardText {
@@ -119,13 +123,11 @@
     }
 
     .textTitle {
-        margin-top: 40px;
         font-size: 27px;
     }
 
     .myServicesBox {
         gap: 20px;
-        margin-top: 30px;
         width: 98%;
         height: 250px;
     }
@@ -162,13 +164,11 @@
     }
 
     .textTitle {
-        margin-top: 40px;
         font-size: 27px;
     }
 
     .myServicesBox {
         gap: 20px;
-        margin-top: 30px;
         width: 98%;
         height: 250px;
     }
@@ -217,13 +217,11 @@
     }
 
     .textTitle {
-        margin-top: 30px;
         font-size: 18px;
     }
 
     .myServicesBox {
         gap: 10px;
-        margin-top: 20px;
         width: 98%;
         height: 190px;
     }
@@ -284,13 +282,11 @@
     }
 
     .textTitle {
-        margin-top: 20px;
         font-size: 18px;
     }
 
     .myServicesBox {
         gap: 10px;
-        margin-top: 10px;
         width: 98%;
         height: 190px;
     }
@@ -339,14 +335,12 @@
     }
 
     .textTitle {
-        margin-top: 30px;
         font-size: 16px;
     }
 
     .myServicesBox {
         flex-flow: wrap;
         gap: 20px;
-        margin-top: 20px;
         width: 98%;
         height: 1100px;
     }
@@ -376,14 +370,12 @@
     }
 
     .textTitle {
-        margin-top: 30px;
         font-size: 13px;
     }
 
     .myServicesBox {
         flex-flow: wrap;
         gap: 20px;
-        margin-top: 20px;
         width: 98%;
         height: 1100px;
     }
