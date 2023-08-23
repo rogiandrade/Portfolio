@@ -81,12 +81,14 @@
 
 @media screen and (max-width: 480px) {
     .about{  
+        margin-top: 20px;
+        align-items: start;
         height: 94vh;
     }
     .aboutBox {
         flex-flow: column;
         width: 90%;
-        height: 90%;
+        height: 85%;
         gap: 10px;
     }
 
