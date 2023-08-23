@@ -39,7 +39,7 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
         buttonHeaderColor: '#FFFFFC',
         buttonHeaderTextColor: '#000000',
         borderBottomColor: '#C9C9C9',
-        subTitleColor: '#313132',
+        subTitleColor: '#151515',
         imageAbout: 'url(../../../about-pic-white.png)',
         imageService: 'url(../../../imageServiceLight.png)',
         imageProjects: 'url(../../../imageProjectsCardLight.png)'
