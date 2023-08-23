@@ -311,8 +311,19 @@
         height: 550px;
     }
 
-    .servicesText{overflow-y: scroll;
+    .servicesText{
         width: 95%;
+    }
+    .servicesText::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .servicesText::-webkit-scrollbar-track {
+        border-radius: 6px;
+    }
+
+    .servicesText::-webkit-scrollbar-thumb {
+        border-radius: 3px;
     }
 
     .serviceTitle {
