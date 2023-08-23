@@ -1,55 +1,16 @@
-import ptBRData from '../locales/pt-br.json';
-import enUSData from '../locales/en-us.json';
-import frEUData from '../locales/fr-eu.json';
-import esEUData from '../locales/es-eu.json';
+import jsonptBR from '../locales/pt-br.json';
+import jsonenUS from '../locales/en-us.json';
+import jsonfrEU from '../locales/fr-eu.json';
+import jsonesEU from '../locales/es-eu.json';
 import { useHeader } from './headerProvider';
 
-interface TranslationObject {
-    header: {
-        [key: string]: string;
-    };
-    home: {
-        title: string;
-        subtitle: string;
-    };
-    about: {
-        title: string;
-        text: string[];
-    };
-    services: {
-        title: string;
-        subtitle: string;
-        myservices: string;
-        systemdevelopment: string;
-        systemdevelopmenttext: string;
-        mobiledevelopment: string;
-        mobiledevelopmenttext: string;
-        integration: string;
-        integrationtext: string;
-        developmentcicle: string;
-        blueprint: string;
-        blueprinttext: string;
-        development: string;
-        developmenttext: string;
-        support: string;
-        supporttext: string;
-    };
-    projects: {
-        title: string;
-        subtitle: string;
-        vlinsresume: string;
-        habitresume: string;
-        pokedevresume: string;
-        blissresume: string;
-    };
-}
+export function changeLocale(page: any, index: any) {
 
-const ptBR: TranslationObject = ptBRData;
-const enUS: TranslationObject = enUSData;
-const frEU: TranslationObject = frEUData;
-const esEU: TranslationObject = esEUData;
+    const ptBR = jsonptBR as any
+    const enUS = jsonenUS as any
+    const frEU = jsonfrEU as any
+    const esEU = jsonesEU as any
 
-export function changeLocale(page: keyof TranslationObject, index: keyof TranslationObject[typeof page]) {
     const { locale } = useHeader();
 
     switch (locale) {
