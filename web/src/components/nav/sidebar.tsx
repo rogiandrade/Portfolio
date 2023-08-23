@@ -43,7 +43,9 @@ export function SideBar() {
                     <DropdownMenu.Separator className="DropdownMenuSeparator" />
 
                     <DropdownMenu.Item className="DropdownMenuItem">
-                        {changeLocale('header', 'PROJECTS')}
+                        <Link to="/projects">
+                            {changeLocale('header', 'PROJECTS')}
+                        </Link>
                     </DropdownMenu.Item>
 
                     <DropdownMenu.Separator className="DropdownMenuSeparator" />

@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    width: 50px;
+    width: 35px;
     z-index: 1;
 }
 
@@ -46,7 +46,7 @@
     position: absolute;
     padding: 0 10px;
     top: 40px;
-    left: 0;
+    left: -50px;
     width: 150px;
     height: 90px;
     border: 2px solid var(--borderBottomColor);
@@ -76,7 +76,7 @@
     position: absolute;
     padding: 20px 10px;
     top: 40px;
-    left: 0;
+    left: -50px;
     width: 150px;
     height: 40px;
     border: 2px solid var(--borderBottomColor);
@@ -117,4 +117,65 @@
 
 .linkIcon {
     width: 30px;
+}
+
+@media screen and (max-width: 1500px) {
+    .navigationMenuRoot {
+        width: 30px;
+    }
+
+    .navigationMenuList {
+        width: 20px;
+        height: 20px;
+        border-radius: 7px;
+        margin-top: 8px;
+    }
+
+    .navigationMenuContentVLins {
+        padding: 0 10px;
+        top: 30px;
+        left: -40px;
+        width: 110px;
+        height: 50px;
+        border-radius: 5px;
+    }
+
+    .navigationMenuContent {
+        padding: 10px 10px;
+        top: 30px;
+        left: -40px;
+        width: 95px;
+        height: 10px;
+        border-radius: 5px;
+    }
+
+    .links {
+        height: 37%;
+        gap: 2px;
+        font-size: 15px;
+    }
+
+    .linkIcon {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navigationMenuContentVLins {
+        padding: 0 2px;
+        top: 30px;
+        left: -33px;
+        width: 85px;
+        height: 55px;
+        border-radius: 5px;
+    }
+
+    .navigationMenuContent {
+        padding: 10px 5px;
+        top: 30px;
+        left: -30px;
+        width: 85px;
+        height: 10px;
+        border-radius: 5px;
+    }
 }
