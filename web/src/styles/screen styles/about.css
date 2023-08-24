@@ -26,7 +26,6 @@
 
 .aboutTexts {
     display: flex;
-    justify-content: space-between;
     flex-flow: column;
     width: 450px;
     height: 80%;
@@ -50,6 +49,13 @@
         font-size: 57px;
     }
 
+    .aboutTexts{
+        width: 33%;
+    }
+    
+    .titles{
+        font-size: 46.9px;
+    }
     .contentTexts {
         font-size: 14px;
     }
