@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom/client'
 import { DarkModeProvider } from './contexts/colorsProvider.tsx'
 import { HeaderProvider } from './contexts/headerProvider.tsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import { Home } from './components/home.tsx'
-import { About } from './components/about.tsx'
-import { Header } from './components/header.tsx'
-import { Services } from './components/services.tsx'
-import { Projects } from './components/projects.tsx'
+import { Home } from './components/screens/home.tsx'
+import { About } from './components/screens/about.tsx'
+import { Header } from './components/screens/header.tsx'
+import { Services } from './components/screens/services.tsx'
+import { Projects } from './components/screens/projects.tsx'
 
 const router = createBrowserRouter([
-  {path: "/", 
+  {
+    path: "/",
     element: <Header />,
     children:
       [{
