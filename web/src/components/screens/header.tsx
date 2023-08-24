@@ -2,11 +2,11 @@ import { ChevronDownIcon } from "@radix-ui/react-icons";
 import * as Select from "@radix-ui/react-select";
 import { SelectItem } from "@radix-ui/react-select";
 import * as Switch from "@radix-ui/react-switch";
-import { useDarkMode, DarkModeContextType } from "../contexts/colorsProvider";
-import { useHeader } from "../contexts/headerProvider";
+import { useDarkMode, DarkModeContextType } from "../../contexts/colorsProvider";
+import { useHeader } from "../../contexts/headerProvider";
 import { Outlet } from "react-router-dom";
-import { MenuBar } from "./nav/menubar";
-import { SideBar } from "./nav/sidebar";
+import { MenuBar } from "../nav/menubar";
+import { SideBar } from "../nav/sidebar";
 
 const countries = { 'pt-br': 'PT-BR', 'en-us': 'EN', 'fr-eu': 'FR', 'es-eu': 'ES' } as { [value: string]: string };
 

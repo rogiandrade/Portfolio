@@ -1,4 +1,4 @@
-import { changeLocale } from "../contexts/changeLocaleProvider";
+import { changeLocale } from "../../contexts/changeLocaleProvider";
 
 export function Home() {
 

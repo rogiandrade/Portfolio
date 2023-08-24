@@ -1,5 +1,5 @@
-import { changeLocale } from "../contexts/changeLocaleProvider";
-import { NavigationMenuBliss, NavigationMenuHabits, NavigationMenuPokeDev, NavigationMenuVLins } from "./nav/navigationMenu";
+import { changeLocale } from "../../contexts/changeLocaleProvider";
+import { NavigationMenuBliss, NavigationMenuHabits, NavigationMenuPokeDev, NavigationMenuVLins } from "../nav/navigationMenu";
 
 
 export function Projects() {
