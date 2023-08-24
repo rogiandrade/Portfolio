@@ -30,7 +30,7 @@
 
 .projectsSubTitle {
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 400;
     color: var(--subTitleColor);
 }
 
@@ -82,7 +82,7 @@
     padding: 0 10px;
     width: 260px;
     font-size: 13px;
-    font-weight: 100;
+    font-weight: 400;
     color: var(--subTitleColor);
     margin-top: 10px;
 }
