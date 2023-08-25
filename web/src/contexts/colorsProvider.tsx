@@ -42,7 +42,8 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
         subTitleColor: '#151515',
         imageAbout: 'url(../../../about-pic-white.png)',
         imageService: 'url(../../../imageServiceLight.png)',
-        imageProjects: 'url(../../../imageProjectsCardLight.png)'
+        imageProjects: 'url(../../../imageProjectsCardLight.png)',
+        imageContacts: 'url(../../../logoDark.png)'
     };
 
     const darkModeColors: Colors = {
@@ -53,7 +54,8 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
         subTitleColor: '#FFFFFC',
         imageAbout: 'url(../../../about-pic-dark.png)',
         imageService: 'url(../../../imageServiceDark.png)',
-        imageProjects: 'url(../../../imageProjectsCardDark.png)'
+        imageProjects: 'url(../../../imageProjectsCardDark.png)',
+        imageContacts: 'url(../../../logoLight.png)'
     };
 
     const colors: Colors = darkMode ? darkModeColors : lightModeColors;
@@ -72,6 +74,7 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
         root.style.setProperty('--image-about', colors.imageAbout);
         root.style.setProperty('--image-service', colors.imageService);
         root.style.setProperty('--image-projects', colors.imageProjects);
+        root.style.setProperty('--image-contacts', colors.imageContacts);
     }, [darkMode, colors]);
 
     return (
