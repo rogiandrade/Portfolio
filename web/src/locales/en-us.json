@@ -39,5 +39,10 @@
         "habitresume": "Project carried out to record daily habits.",
         "pokedevresume": "Project being developed as a challenge between friends.",
         "blissresume": "Project carried out for the selection process of a company."
+    },
+    "contacts": {
+        "titlelogo": "Developing highly efficient systems with exceptional digital experiences, which help to increase your brand's visibility on the internet and improve the user's journey.",
+        "titlecontact": "Have an amazing idea in mind?",
+        "subtitlecontact": "If you have an idea in mind, or if you just want to get to know me, feel free to send me a message."
     } 
 }

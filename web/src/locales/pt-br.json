@@ -39,5 +39,10 @@
         "habitresume": "Projeto realizado para registro de hábitos diários.",
         "pokedevresume": "Projeto sendo desenvolvido como um desafio entre amigos.",
         "blissresume": "Projeto realizado para o processo seletivo de uma empresa."
+    },
+    "contacts": {
+        "titlelogo": "Desenvolvendo sistemas de elevada eficiência e com excepcionais experiências digitais, que contribuem para ampliar a visibilidade da sua marca na internet e aprimorar a jornada do usuário.",
+        "titlecontact": "Tem uma ideia incrível em mente?",
+        "subtitlecontact": "Se você tem alguma ideia na cabeça, ou se quer apenas me conhecer, sinta-se livre para me mandar uma mensagem."
     }
 }
