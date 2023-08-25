@@ -32,7 +32,9 @@ export function MenuBar() {
                             </Link>
                         </Menubar.Trigger>
                         <Menubar.Trigger className="menubarTrigger">
-                            {changeLocale('header', 'CONTACTS')}
+                            <Link to="/contacts">
+                                {changeLocale('header', 'CONTACTS')}
+                            </Link>
                         </Menubar.Trigger>
                     </Menubar.Menu>
 

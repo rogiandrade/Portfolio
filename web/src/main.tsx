@@ -8,6 +8,7 @@ import { About } from './components/screens/about.tsx'
 import { Header } from './components/screens/header.tsx'
 import { Services } from './components/screens/services.tsx'
 import { Projects } from './components/screens/projects.tsx'
+import { Contacts } from './components/screens/contacts.tsx'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects />,
+      },
+      {
+        path: "/contacts",
+        element: <Contacts />,
       },]
   }
 ])
