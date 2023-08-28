@@ -16,7 +16,7 @@ export function Contacts() {
                     </div>
                     <div className="containerContactsSocialMedia">
                         <a
-                            href="mailto:devigorandrade@gmail.com?subject=Hello Igor, I came by your Website and [YOUR MESSAGE]"
+                            href="mailto:devigorandrade@gmail.com?message=Hello Igor, I came by your Website and [YOUR MESSAGE]"
                             className="contactsSocialMedia"
                         >
                             <img className="contactsImage" src="at.svg" alt="at" /> E-MAIL
