@@ -14,8 +14,8 @@ export function changeLocale(page: any, index: any) {
     const { locale } = useHeader();
 
     switch (locale) {
-        case 'en-us':
-            return enUS[page][index];
+        case 'pt-br':
+            return ptBR[page][index];
 
         case 'fr-eu':
             return frEU[page][index];
@@ -24,6 +24,6 @@ export function changeLocale(page: any, index: any) {
             return esEU[page][index];
 
         default:
-            return ptBR[page][index];
+            return enUS[page][index];
     }
 }
