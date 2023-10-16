@@ -11,7 +11,7 @@ export function NavigationMenuWoodwork() {
                         <NavigationMenu.Trigger className='navigationMenuTrigger'>
                             <CaretDownIcon className='caretDown' aria-hidden />
                         </NavigationMenu.Trigger>
-                        <NavigationMenu.Content className='navigationMenuContentVLins'>
+                        <NavigationMenu.Content className='navigationMenuContent'>
                             <NavigationMenu.Link>
                                 <a
                                     className='links'
