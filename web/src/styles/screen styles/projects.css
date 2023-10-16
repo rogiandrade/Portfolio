@@ -36,11 +36,28 @@
 
 .projectsContent {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
+    gap: 10px;
     flex-flow: wrap;
+    margin-top: 15px;
     width: 76%;
     height: 79%;
+    overflow-y: scroll;
+}
+
+.projectsContent::-webkit-scrollbar {
+    background: var(--backgroundColor);
+}
+
+.projectsContent::-webkit-scrollbar-track {
+    background: none;
+}
+
+.projectsContent::-webkit-scrollbar-thumb {
+    opacity: 1;
+    background: var(--subTitleColor);
+    border-radius: 6px;
 }
 
 .projectsContentCard {
@@ -192,6 +209,7 @@
     }
 
     .projectsContent {
+        justify-content: center;
         gap: 15px;
         width: 100%;
         height: 65%;
