@@ -1,5 +1,5 @@
 import { changeLocale } from "../../contexts/changeLocaleProvider";
-import { NavigationMenuBliss, NavigationMenuHabits, NavigationMenuPokeDev, NavigationMenuVLins } from "../nav/navigationMenu";
+import { NavigationMenuBliss, NavigationMenuHabits, NavigationMenuPokeDev, NavigationMenuVLins, NavigationMenuWoodwork } from "../nav/navigationMenu";
 
 
 export function Projects() {
@@ -12,6 +12,14 @@ export function Projects() {
                     <p className="projectsSubTitle" dangerouslySetInnerHTML={{ __html: changeLocale('projects', 'subtitle') }} />
                 </div>
                 <div className="projectsContent">
+                    <div className="projectsContentCard">
+                        <div className="projectsCardImages" />
+                        <div className="projectsCardsContent">
+                            <h2 className="projectsCardtitle">Woodwork</h2>
+                            <p className="projectsCardSubTitle">{changeLocale('projects', 'woodworkresume')}</p>
+                            <div>{NavigationMenuWoodwork()}</div>
+                        </div>
+                    </div>
                     <div className="projectsContentCard">
                         <div className="projectsCardImages" />
                         <div className="projectsCardsContent">
