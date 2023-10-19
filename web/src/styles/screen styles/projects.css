@@ -57,7 +57,7 @@
 .projectsContent::-webkit-scrollbar-thumb {
     opacity: 1;
     background: var(--subTitleColor);
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .projectsContentCard {
