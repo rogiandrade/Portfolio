@@ -49,19 +49,17 @@
 }
 
 .overflowServices::-webkit-scrollbar {
-    width: 12px;
     background: var(--backgroundColor);
 }
 
 .overflowServices::-webkit-scrollbar-track {
     background: none;
-    border-radius: 12px;
 }
 
 .overflowServices::-webkit-scrollbar-thumb {
     opacity: 1;
     background: var(--subTitleColor);
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .textTitle {
@@ -196,18 +194,6 @@
         height: 370px;
     }
 
-    .servicesText::-webkit-scrollbar {
-        width: 8px;
-    }
-
-    .servicesText::-webkit-scrollbar-track {
-        border-radius: 8px;
-    }
-
-    .servicesText::-webkit-scrollbar-thumb {
-        border-radius: 4px;
-    }
-
     .serviceTitle {
         font-size: 32px;
     }
@@ -261,18 +247,6 @@
         width: 90%;
     }
 
-    .servicesText::-webkit-scrollbar {
-        width: 8px;
-    }
-
-    .servicesText::-webkit-scrollbar-track {
-        border-radius: 8px;
-    }
-
-    .servicesText::-webkit-scrollbar-thumb {
-        border-radius: 4px;
-    }
-
     .serviceTitle {
         font-size: 34px;
     }
@@ -315,17 +289,6 @@
 
     .servicesText{
         width: 95%;
-    }
-    .servicesText::-webkit-scrollbar {
-        width: 6px;
-    }
-
-    .servicesText::-webkit-scrollbar-track {
-        border-radius: 6px;
-    }
-
-    .servicesText::-webkit-scrollbar-thumb {
-        border-radius: 3px;
     }
 
     .serviceTitle {
