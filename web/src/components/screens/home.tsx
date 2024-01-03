@@ -15,7 +15,7 @@ export function Home() {
             <p className="homeSubTitle">{changeLocale("home", "subtitle")}</p>
           </div>
           <div className="imgHomeContent">
-            <div className="imgHomeBlur" />
+            <div className="purpleCircle" />
               <img className="imgHome" src="imageHome.png" />
           </div>
         </div>
