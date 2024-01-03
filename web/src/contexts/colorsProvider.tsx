@@ -47,7 +47,7 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
     };
 
     const darkModeColors: Colors = {
-        backgroundColor: '#313131',
+        backgroundColor: '#201F1F',
         buttonHeaderColor: '#151515',
         buttonHeaderTextColor: '#7E5DCA',
         borderBottomColor: '#424242',
