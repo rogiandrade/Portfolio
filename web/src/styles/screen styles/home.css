@@ -34,10 +34,10 @@
   height: 100%;
 }
 
-.imgHomeBlur {
+.purpleCircle {
   position: absolute;
-  width: 600px;
-  height: 600px;
+  width: 32%;
+  height: 64%;
   background-color: #7e5dca;
   border-radius: 50%;
   z-index: 100;
@@ -45,14 +45,9 @@
 
 .imgHome {
   position: relative;
-  width: 500px;
+  width: 450px;
   z-index: 101;
   transform: scale(1.8);
-}
-
-.imgHome {
-  width: 450px;
-  border-radius: 50%;
 }
 
 @media screen and (max-width: 1456px) {
@@ -61,9 +56,12 @@
   }
   .homeSubTitle {
     font-size: 19px;
-  }
+  } 
   .imgHome {
-    width: 300px;
+    position: relative;
+    width: 340px;
+    z-index: 101;
+    transform: scale(1.6);
   }
 }
 
@@ -74,8 +72,12 @@
   .homeSubTitle {
     font-size: 15px;
   }
+  .purpleCircle{
+    width: 36%;
+    height: 56%;
+  }
   .imgHome {
-    width: 250px;
+    width: 300px;
   }
 }
 
@@ -86,8 +88,12 @@
   .homeSubTitle {
     font-size: 12px;
   }
+  .purpleCircle{
+    width: 38%;
+    height: 46%;
+  }
   .imgHome {
-    width: 200px;
+    width: 250px;
   }
 }
 
@@ -102,6 +108,14 @@
   .homeSubTitle {
     font-size: 12px;
   }
+  .imgHomeContent{
+    top: 20px;
+    padding-bottom: 0;
+  }
+  .purpleCircle{
+    width: 60%;
+    height: 36%;
+  }
   .imgHome {
     width: 200px;
   }
@@ -114,6 +128,10 @@
   .homeSubTitle {
     font-size: 11px;
   }
+  .purpleCircle{
+    width: 75%;
+    height: 37%;
+  }
   .imgHome {
     width: 200px;
   }
@@ -125,8 +143,5 @@
   }
   .homeSubTitle {
     font-size: 9.7px;
-  }
-  .imgHome {
-    width: 200px;
   }
 }
