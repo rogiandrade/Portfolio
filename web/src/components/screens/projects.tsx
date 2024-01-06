@@ -13,7 +13,7 @@ export function Projects() {
                 </div>
                 <div className="projectsContent">
                     <div className="projectsContentCard">
-                        <div className="projectsCardImages" />
+                        <img className="projectsCardImages" src="imageProjectCard.png" />
                         <div className="projectsCardsContent">
                             <h2 className="projectsCardtitle">Woodwork</h2>
                             <p className="projectsCardSubTitle">{changeLocale('projects', 'woodworkresume')}</p>
@@ -21,7 +21,7 @@ export function Projects() {
                         </div>
                     </div>
                     <div className="projectsContentCard">
-                        <div className="projectsCardImages" />
+                        <img className="projectsCardImages" src="imageProjectCard.png" />
                         <div className="projectsCardsContent">
                             <h2 className="projectsCardtitle">VLins Website</h2>
                             <p className="projectsCardSubTitle">{changeLocale('projects', 'vlinsresume')}</p>
@@ -29,7 +29,7 @@ export function Projects() {
                         </div>
                     </div>
                     <div className="projectsContentCard">
-                        <div className="projectsCardImages" />
+                        <img className="projectsCardImages" src="imageProjectCard.png" />
                         <div className="projectsCardsContent">
                             <h2 className="projectsCardtitle">Habits</h2>
                             <p className="projectsCardSubTitle">{changeLocale('projects', 'habitresume')}</p>
@@ -37,7 +37,7 @@ export function Projects() {
                         </div>
                     </div>
                     <div className="projectsContentCard">
-                        <div className="projectsCardImages" />
+                        <img className="projectsCardImages" src="imageProjectCard.png" />
                         <div className="projectsCardsContent">
                             <h2 className="projectsCardtitle">PokeDev</h2>
                             <p className="projectsCardSubTitle">{changeLocale('projects', 'pokedevresume')}</p>
@@ -45,7 +45,7 @@ export function Projects() {
                         </div>
                     </div>
                     <div className="projectsContentCard">
-                        <div className="projectsCardImages" />
+                        <img className="projectsCardImages" src="imageProjectCard.png" />
                         <div className="projectsCardsContent">
                             <h2 className="projectsCardtitle">Bliss Application</h2>
                             <p className="projectsCardSubTitle">{changeLocale('projects', 'blissresume')}</p>
