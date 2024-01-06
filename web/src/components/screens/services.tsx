@@ -4,7 +4,7 @@ export function Services() {
 
     return (
         <section className="services">
-            <div className="imageService" />
+            <img className="imageService" src="imageService.png" alt="mockup" />
             <div className="servicesBox">
                 <div className="servicesText">
                     <h2 className="serviceTitle">{changeLocale('services', 'title')}</h2>
