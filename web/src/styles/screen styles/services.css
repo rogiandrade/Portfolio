@@ -104,8 +104,8 @@
 
 @media screen and (max-width: 1500px) {
     .imageService {
-        width: 700px;
-        height: 700px;
+        width: 500px;
+        height: 380px;
     }
 
     .servicesBox {
@@ -143,51 +143,10 @@
     }
 }
 
-@media screen and (max-width: 1280px) {
-    .imageService {
-        width: 700px;
-        height: 700px;
-    }
-
-    .servicesBox {
-        height: 500px;
-    }
-
-    .serviceTitle {
-        font-size: 45px;
-    }
-
-    .serviceSubTitle {
-        font-size: 27px;
-    }
-
-    .textTitle {
-        font-size: 27px;
-    }
-
-    .myServicesBox {
-        gap: 20px;
-        width: 98%;
-        height: 250px;
-    }
-
-    .myServiceCard {
-        height: 250px;
-    }
-
-    .myServiceCardTitle {
-        font-size: 11px;
-    }
-
-    .myServiceCardText {
-        font-size: 10px;
-    }
-}
-
 @media screen and (max-width: 1025px) {
     .imageService {
-        width: 600px;
-        height: 600px;
+        width: 450px;
+        height: 370px;
     }
 
     .servicesBox {
