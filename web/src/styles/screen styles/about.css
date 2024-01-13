@@ -21,7 +21,6 @@
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    border: 5px solid #7E5DCA;
 }
 
 .aboutTexts {
@@ -126,10 +125,6 @@
     .homeSubTitle {
         font-size: 11px;
     }
-
-    .imgHome {
-        width: 200px;
-    }
 }
 
 @media screen and (max-width: 330px) {
@@ -139,9 +134,5 @@
 
     .homeSubTitle {
         font-size: 9.7px;
-    }
-
-    .imgHome {
-        width: 200px;
     }
 }

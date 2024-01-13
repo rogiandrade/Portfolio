@@ -1,23 +1,23 @@
 .services {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
     width: 100%;
     height: 94vh;
 }
 
 .imageService {
-    width: 900px;
-    height: 900px;
-    background-image: var(--image-service);
-    background-repeat: no-repeat;
-    background-size: contain;
+    margin-left: 10px;
+    width: 750px;
+    height: 610px;
+    object-fit: cover;
 }
 
 .servicesBox {
     display: flex;
     align-items: center;
-    width: 70%;
+    justify-content: center;
+    width: 55%;
     height: 600px;
 }
 
@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
     flex-flow: column;
-    width: 85%;
+    width: 100%;
     height: 100%;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .overflowServices::-webkit-scrollbar {
-    background: var(--backgroundColor);
+    background: none;
 }
 
 .overflowServices::-webkit-scrollbar-track {
@@ -58,7 +58,7 @@
 
 .overflowServices::-webkit-scrollbar-thumb {
     opacity: 1;
-    background: var(--subTitleColor);
+    background: #7E5DCA;
     border-radius: 10px;
 }
 
@@ -104,8 +104,8 @@
 
 @media screen and (max-width: 1500px) {
     .imageService {
-        width: 700px;
-        height: 700px;
+        width: 500px;
+        height: 380px;
     }
 
     .servicesBox {
@@ -143,51 +143,10 @@
     }
 }
 
-@media screen and (max-width: 1280px) {
-    .imageService {
-        width: 700px;
-        height: 700px;
-    }
-
-    .servicesBox {
-        height: 500px;
-    }
-
-    .serviceTitle {
-        font-size: 45px;
-    }
-
-    .serviceSubTitle {
-        font-size: 27px;
-    }
-
-    .textTitle {
-        font-size: 27px;
-    }
-
-    .myServicesBox {
-        gap: 20px;
-        width: 98%;
-        height: 250px;
-    }
-
-    .myServiceCard {
-        height: 250px;
-    }
-
-    .myServiceCardTitle {
-        font-size: 11px;
-    }
-
-    .myServiceCardText {
-        font-size: 10px;
-    }
-}
-
 @media screen and (max-width: 1025px) {
     .imageService {
-        width: 600px;
-        height: 600px;
+        width: 450px;
+        height: 370px;
     }
 
     .servicesBox {

@@ -41,20 +41,16 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
         borderBottomColor: '#C9C9C9',
         subTitleColor: '#151515',
         imageAbout: 'url(../../../about-pic-white.png)',
-        imageService: 'url(../../../imageServiceLight.png)',
-        imageProjects: 'url(../../../imageProjectsCardLight.png)',
         imageContacts: 'url(../../../logoDark.png)'
     };
 
     const darkModeColors: Colors = {
-        backgroundColor: '#313131',
+        backgroundColor: '#201F1F',
         buttonHeaderColor: '#151515',
         buttonHeaderTextColor: '#7E5DCA',
         borderBottomColor: '#424242',
         subTitleColor: '#FFFFFC',
         imageAbout: 'url(../../../about-pic-dark.png)',
-        imageService: 'url(../../../imageServiceDark.png)',
-        imageProjects: 'url(../../../imageProjectsCardDark.png)',
         imageContacts: 'url(../../../logoLight.png)'
     };
 
@@ -72,8 +68,6 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
             }
         }
         root.style.setProperty('--image-about', colors.imageAbout);
-        root.style.setProperty('--image-service', colors.imageService);
-        root.style.setProperty('--image-projects', colors.imageProjects);
         root.style.setProperty('--image-contacts', colors.imageContacts);
     }, [darkMode, colors]);
 
