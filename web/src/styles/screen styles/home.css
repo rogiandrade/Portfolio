@@ -38,7 +38,7 @@
   width: 650px;
 }
 
-@media screen and (max-width: 1456px) {
+@media screen and (max-width: 1500px) {
   .homeTitle {
     font-size: 70px;
   }
